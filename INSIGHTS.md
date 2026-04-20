@@ -1,0 +1,8 @@
+- The top 5 customers generate the highest lifetime spend based on item level totals rolled up through orders.
+- Product category revenue is uneven, with some categories contributing much more than others.
+- Total revenue was calculated using quantity * unit_price from order_items.
+- Employees listed in Task 3 are earning strictly above their own department average, not above the company wide average.
+- Gold loyalty customers are concentrated in certain cities more than others.
+- Tampa appears to have a strong concentration of Gold customers based on the customer table preview.
+- Task 2 uses all orders if revenue were limited to Delivered orders only, category rankings could change.
+- The database structure shows clear fact/dimension relationships across customers, orders, order_items, products, employees and departments.
