@@ -1,4 +1,5 @@
 - TASK 1
+
 SELECT
     c.first_name || ' ' || c.last_name AS customer_full_name,
     ROUND(SUM(oi.quantity * oi.unit_price), 2) AS total_spend
@@ -12,6 +13,7 @@ ORDER BY total_spend DESC
 LIMIT 5;
 
 - TASK 2
+
 SELECT
     p.category,
     ROUND(SUM(oi.quantity * oi.unit_price), 2) AS revenue
@@ -24,6 +26,7 @@ GROUP BY p.category
 ORDER BY revenue DESC;
 
 - TASK 3
+
 SELECT
     e.first_name,
     e.last_name,
@@ -45,6 +48,7 @@ WHERE e.salary > dept_avg.avg_salary
 ORDER BY d.name, e.salary DESC;
 
 - TASK 4
+
 SELECT
     city,
     COUNT(*) AS gold_customer_count
